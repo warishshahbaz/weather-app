@@ -60,9 +60,9 @@ const Search = ({ setCity, city, setSearchToggle,handleSubmit,setInputdata,setLo
       <div className="w-[100%]  mb-1 p-5 flex justify-center items-center flex-col  ">
       
         {searchData.length === 0 ? (
-          <h2> no match</h2>
+          <h2 className="flex justify-center items-center text-3xl text-[#c8da63] " > No match</h2>
         ) : (
-          searchData?.map((val, i) => {
+          searchData &&  searchData?.map((val, i) => {
             return (
               <ul className=" w-[100%] capitized  m-3 text-slate-400 flex justify-start  items-center ">
                 <li
