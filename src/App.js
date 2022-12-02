@@ -2,7 +2,7 @@ import moment from "moment";
 import React, { useEffect, useState } from "react";
 import HighlightPage from "./Components/Highlight_Page";
 import Home from "./Components/Home";
-import Sample from "./Components/sample";
+
 import Search from "./Components/Search";
 import TempToggle from "./Pages/TempToggle";
 
